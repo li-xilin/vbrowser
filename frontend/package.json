@@ -1,0 +1,69 @@
+{
+  "name": "vue-file-browser",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "@ant-design/icons-vue": "^6.1.0",
+    "ant-design-vue": "^2.2.8",
+    "antd": "^4.19.2",
+    "axios": "^0.26.1",
+    "core-js": "^3.8.3",
+    "docx-preview": "^0.1.8",
+    "path": "^0.12.7",
+    "path-browserify": "^1.0.1",
+    "stream": "^0.0.2",
+    "typescript": "^4.6.2",
+    "util": "^0.12.4",
+    "vue": "^3.2.31",
+    "vue-axios": "^3.4.1",
+    "vue-router": "^4.0.3",
+    "vue3-audio-player": "^1.0.3",
+    "vue3-pdfjs": "^0.1.6",
+    "vue3-video-play": "^1.3.1-beta.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/eslint-config-standard": "^6.1.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-vue": "^7.0.0",
+    "less": "^4.0.0",
+    "less-loader": "^8.0.0",
+    "vite": "^2.8.6"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "@vue/standard"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {
+      "indent": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
