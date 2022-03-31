@@ -1,0 +1,13 @@
+[Unit]
+Description=V-Browser api server daemon
+Documentation=
+
+[Service]
+Type=simple
+WorkingDirectory=/tmp
+ExecStart=/usr/bin/node vbrowserd.js --data <data_directory>
+Restart=always
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target
